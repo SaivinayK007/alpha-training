@@ -1,0 +1,51 @@
+15-05-25  Tuesday 
+______________________________
+
+
+32. Longest Valid Parentheses
+  -follow notes for notebook
+
+
+155.Min Stack
+
+--Implement Min Stack that performs push , pop and top operations
+as stack and in additon to these , a special method getMin() returns min value in stack in O(1) Time Complexity
+
+Python :
+ .Using stack Push the Pair of values that can be pushed on to stack
+ .Compare value and last element of tuple and use to next push() if value is lesser than last element of tuple
+ .Use getMin() to return Minimum element in Stack
+
+C++:
+-- Use Pair data structure 
+
+
+
+1047.Remove Adjacent Duplicates
+  
+   -- Using Stack insert each character into stack if and only stack is either empty or current character is not same as top of the stack
+   -- Otherwise pop the top of the stack
+
+
+232.Implement Queue using Stacks (Two) 
+-- Use two Stacks for push and pop
+.. push() operation insert the value into stack
+.. pop():-  Check whether the second stack is empty then 
+            copy the elements from 1st stack by deleting each from itself
+            and finally return top of 2nd stack and delete eventually
+.. peek():- same as the pop but finally return top of the 2nd stack 
+            without popping it 
+.. empty():- return true if both Stacks are empty 
+
+Using Python
+
+
+503. Next Greater Element II 
+-- use stack to store indices traversed of array
+.. if stack is not empty and check ith char of array with the element at 
+   index of top of stack if so , pop()
+.. if stack is not empty then place value at top of stack in result array
+.. push()
+.. return result
+
+ 
