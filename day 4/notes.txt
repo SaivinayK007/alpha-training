@@ -1,0 +1,77 @@
+Dt.  17-5-25 ( Saturday)
+________________________
+Complete LFU cache from leetcode ..
+
+Assigment
+________________________
+
+  1.leetcode 71 - Simple Path  ✅
+  2.leetcode 150 - Evaluate Reverse Polish Expression(Postfix Expression)   ✅
+  3.leetcode 225 - Implement Stack using Queue ✅
+  4.leetcode 84 - Largest Rect. in Histogram
+
+
+
+146. LRU Cache 
+________________________
+.. Use Least Recently Used Cache {LRU} using Ordered Dictionary in Python
+
+.. Main operations :
+  ===================
+
+    put ():- 
+    ..........
+       1.Search for key if found in Dictionary and move to end of Dictionary
+       2.Update the value of key in Dictionary
+       3.Delete the first element of Dictionary
+    
+    get():-
+    ...........
+       1.Search for key in Dictionary if not found return -1
+       2.Move key value pair to end of Dictionary
+       3.return the value of existing key value pair in Dictionary
+
+******************************************************************************************************
+________________________
+Greedy Approach
+________________________
+>> At every Stage selecting locally best element is called "GREEDY".
+>> Moto of Greedy is locally best choice leads to global optimal solution.
+>> There is only decision sequence in Greedy.
+>> Greedy is faster but can't produce accurate result.(viz . Dynamic Progrmmaing and Backtracking )
+>> It efficiently works with problems like
+     . Fractional knapsack 
+     . Job sequencing with deadline
+     . Djikstras Algoritm (Single Source Shortest path)
+     . Prims Algorithm (Graphs) , Priority Queue (Min Max heap ), etc..
+     . Heaps
+     . Algorithms on Graphs
+     . Huffman Encoding
+>> Find Min or Max is most common concerned questioning pattern in Greedy Problems
+
+ Home Work on Greedy:
+ ......................
+   1.Marc's Cake Walk ✅
+   2.Priyanka and Toys ✅
+   3.Greedy Florist ✅
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
