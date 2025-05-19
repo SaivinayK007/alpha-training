@@ -1,0 +1,76 @@
+sDt . 19.05.25
+--------------
+
+**** Continution to Greedy Approach ****
+
+<> As Greedy always seeks for best possible ways , instead of producing accurate results ,
+   and use DYNAMIC PROGRAMMING to achieve best results
+
+
+
+To-do List:-
+------------
+1.Leetcode 452 -- Min No of arrows needed to burst Balloon.
+2.Leetcode 3111 -- Min Rects. to Cover Pts.
+3.Jump Game and Jump Game II - Leetcode
+
+""""
+  Can be solved using "Activity Selection"
+
+""""
+
+Problems:- 
+---------
+
+435.Non-Overlapping Intervals
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ >> Start meetings according to end time of a meetings. (sort using end time in meetings)
+ >> Make count =  1 and assume it's 1st meeting.
+ >> For every meeting from second meeting to last meeting if it's starting 
+    after ending the previous meeting , then increment count  
+
+     -- maintain a track pointer i to keep tracking index of recent meeting  and update it to current meeting
+
+ >> Return total meetings - count
+----------------------------------------------------------------------------------------------------
+
+Job Sequencing with Deadlines
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1. Sort the Jobs according to profit in decreasing order.
+ 2. Take a slot array with "max deadline + 1" size
+ 3. For  every job search for 1st empty slot it's slot to slot 1.
+ 4. If found , store its profit in corrosponding slot and break. Otherwise ignore.
+ 5. Return number of non-zeros and sum of non-zeros as list .([]) 
+
+
+________________________________________________________________________________________________________
+
+Minimum Platforms
+~~~~~~~~~~~~~~~~~~
+ 1. Sort arrival timings and departure timings in ascending order
+ 2. Take i = 0 index for arrival and j = 0 index for departure, intialise pReq = 0 , Mreq = 0.
+ 3. while i < n and j < n 
+    do {
+     . if ith train arr time <=  jth train departure then increment 'preq' and update 'Mreq'
+       increment i
+     . Otherwise decrement 'preq' ,increment 'j' .
+    }
+4.   Return Mreq
+
+_____________________________________________________________________________________________________
+
+Partition Labels
+~~~~~~~~~~~~~~~~~~
+ 1. Find last occurance of every character in the given string.
+ 2. Take start = 0 , end = 0 .
+ 3. For every character in the given string , make END = MAX(END , IT'S LAST OCCURANCE).
+ 4. If its index and "end" values are equal ,append the inclusive difference into result
+ 5. Return the result
+
+
+
+
+
+
+
+
