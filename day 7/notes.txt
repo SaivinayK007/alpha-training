@@ -1,0 +1,40 @@
+Dt. 21.05.25 (Wednesday)
+_____________________________________________________________________________________
+*******************   TREES *****************
+Key Points:-
+----------
+  Trees , Binary tree and Binary search Trees
+
+...Assignment
+~~~~~~~~~~~~~
+leetcode - 637- avg levels in a binary tree.
+leetcode - 1161 - Max level sum of B tree.
+leetcode 1609 - Even Odd tree.
+leetcode 515 - find largest value in each tree row
+
+
+
+Count Nodes in Trees
+~~~~~~~~~~~~~~~~~~~~~
+1.If root of tree is NULL return 0
+2.Otherwise return 1 + CountNodes(root -> left ) + CountNodes(root -> right)
+
+_____________________________________________________________________________________
+
+2.Same Tree 
+
+3.Symmetric Tree
+
+4.Invert Tree
+~~~~~~~~~~~~~~
+ 1. If root Exists , swap the left of root to right 
+ 2. return root
+
+5.Binary Tree Level Order Traversal - 102 
+
+6.Binary Tree Level Zig Zag Traversal - 103
+
+7.Binary Tree Right view - 199
+
+8.Binary Tree Left Side View - gfg Practice
+
