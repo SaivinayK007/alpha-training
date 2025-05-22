@@ -1,0 +1,41 @@
+Dt . 22.05.25 (Thursday)
+-------------------------------------------------------------------------------------
+******** Continution to Binary Trees - Using  Vertical Order Traversal of Binary Tree ******
+
+??? Solve LEVEL ORDER TRAVERSAL IN HACKER RANK 
+?? Trace down the both top and bottom in trees with more examples
+
+
+1.TOP VIEW OF TREE - gfg 
+
+2.BOTTOM VIEW OF TREE - gfg
+ -- needs to check last updated node in tree in hash and return as result.
+
+ _________________________________________________________________________________
+
+ Binary Search Tree:-
+ ~~~~~~~~~~~~~~~~~~
+  A Binary Tree in which each node value is > it's left sub tree < right sub tree.
+  purpose :- make search time in Binary trees optimal.
+  '' Time Complexity :  O(log n)''
+  For Insertion and Deletion Time Complexity: 'O(log n )' at only leaf nodes
+
+ - Inorder Traversal of BST is sorted in Ascending Order.
+ - Height optimized BST.
+
+   ------------------------------------------------------------------------
+  1.VALID BST - leetcode 98
+    STEPS:-
+      . If any node value in BST has value beyond the integer range in C / C++
+      . Consider two value bounds for long integer lower ( -2^31 -1) and upper(2^ 31) 
+      . any value that exceeds is considered invalid 
+      . 
+ 2.Kth SMALLEST ELEMENT IN BST
+
+ 3.Lowest Common Ancestor - leetcode 235
+
+ 4.Insert into Binary Search Tree - leetcode 701
+   use Iterative and Recursive methods..
+     
+
+
