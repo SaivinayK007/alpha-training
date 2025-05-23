@@ -1,0 +1,31 @@
+Dt 23.05.25 (Friday)
+-----------------------------------------------------------------------------------
+>> Continution to Binary Search Tree
+
+108.CONVERT SORTED ARRAY INTO BINARY SEARCH TREE (HT BALANCED)
+``````````````````````````````````````````````````````````````
+ STEPS:-
+   1.Consider Middle Element as Root of Tree
+   USE DIVIDE AND CONQUER 
+
+1008.CONSTRUCT BINARY SEARCH TREE FROM PREORDER
+`````````````````````````````````````````````````
+STEPS:-
+ 1.Use bound as longest integer value.
+
+450.DELETE A NODE IN BINARY SEARCH TREE
+``````````````````````````````````````
+ ___________________________________________________________________________________________
+
+
+                      **********DYNAMIC PROGRAMMING************
+
+ 
+ 1.Dynamic PROGRAMMING divides problem into sub probem with overlaps , then stores
+   sub solutions and solves probem by reusing them.
+ 2.Can be called as "Modified Divide and Conquer"
+
+                   DP = Sub solution + Re Use
+
+  70.CLIMBING STAIRS
+  
