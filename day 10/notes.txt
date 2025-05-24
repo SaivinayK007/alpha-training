@@ -1,0 +1,34 @@
+Dt 24.05.25(Satuday)
+_________________________________________________________________________
+************* Continution to Dynamic Programming ***** 
+
+ * To Avoid redundant calculations of sub problems
+
+ ????? Solve House Robber III and House Robber IV
+ ????? Coin Change II 
+
+
+ 746. Min Cost Climbing Stairs
+ 
+ 1137. Nth Tribonacci Number 
+
+ 198. House Robber
+
+ 213. House Robber II
+
+ 322. Coin Change
+   STEPS:-
+   -----
+       1.can be done using tabulation , solve reccurrence relation bounded from 0 to amount.
+       2.Using memoization , Time Complexity : O(N * amount) can be achieved
+ 
+
+ 416. Partition Equal Subset Sum
+   STEPS:-
+   ______
+     1. Sum of the elements in the array must be even - base case 
+     2. Choose dp [] of size  {sum of array / 2  + 1} and set initial
+         value ,whose return type is boolean 
+     
+5. Longest Palindromic Substring
+     
