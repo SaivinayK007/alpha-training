@@ -1,0 +1,38 @@
+Dt. 26-05-25 (Monday)
+
+**** Continution to  Dynamic Progrmamming ****
+
+?? 34,35 Try out - Longest Increasing Subsequence
+
+62.Unique Paths
+  STEPS:-
+    . Consider a Dp list filled with 0's of size m * n where m = rows , n = cols
+    . if i = 0 or j = 0 place as 1 (its start place)
+    . Store the value as sum of left element + top element
+    . Return the value of last postion in 2d array.
+
+
+1143. Longest Common Subsequence
+
+72. Edit Distance
+
+647. Palindrome Substrings 
+
+494.Target Sum
+
+________________________________________________________________________________________
+
+                        ~~~~~~~~~~ BACKTRACKING ~~~~~~~~~~~~
+                                       
+1.Trying Multiple desision sequences is called as BACKTRACKING.
+2.In backtrack, at every will have multiple choices ,out of which one we need to select.
+3.Tring every choice and verifying whether our decision sequence leads to solution or not.
+4.Puts additional conditions to reduce recursions that may  save some time.
+
+Ex :- 
+  TO FIND NO OF K 1'S IN GIVEN BINARY REPRESENTATION OF N 
+
+
+
+
+
