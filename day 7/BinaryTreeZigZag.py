@@ -5,7 +5,7 @@ class TreeNode:
         self.left = left
         self.right = right
 class Solution:
-    def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+    def zigzagLevelOrder(self, root):
         if not root :
             return []
         queue = [root] 
