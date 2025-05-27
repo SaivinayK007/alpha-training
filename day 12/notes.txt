@@ -1,0 +1,17 @@
+Dt. 27-05-25 (Tuesday)
+
+??? Toeplitz Matrix
+
+39.Combination Sum 
+
+46.Permutations
+
+78.Subsets
+
+22.Generate Parentheses
+   . No of Valid Parentheses that can be formed using nth Catalan number
+     Cn = 2n+1 C n /n+1
+
+51.N - Queens
+
+79.Word Search
