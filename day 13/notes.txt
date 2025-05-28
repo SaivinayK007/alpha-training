@@ -1,0 +1,28 @@
+Dt 28.05.25 (Wednesday)
+
+200.Number of Islands
+
+463.Island Perimeter
+
+695.Max Area of Island
+
+37.Sudoku Solver
+
+301.Remove Invalid Parentheses
+
+
+                     **************      GRAPHS   ***************
+
+DIGRAPH - directed graph
+HANDSHAKE THEROEM
+
+
+
+DEPTH FIRST SEARCH
+BREADTH FIRST SEARCH
+
+ADJACENCY LIST AND  MATRIX
+
+
+
+
