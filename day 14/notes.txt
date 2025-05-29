@@ -1,0 +1,31 @@
+Dt. 29.05.25 (Thursday)
+
+??? copy list with Random Pointer -138
+
+                                     
+            *****************  GRAPHS ****************
+DFS 
+BFS
+CYCLE DETECTIONS
+SHORTEST PATH ALGORITHMS 
+
+
+Dijkstra's Algroithm - O(N Log N + E)
+
+Bellman Ford - O(N2)
+
+FLoyyd Warshall- O(N3)  - All pairs Shortest Path 
+__________________________________________________________________________________________
+
+547.Number of Provinces
+
+.. Componets In A Graph - hackerrank
+
+133.Clone Graph
+
+.. BFS:Shortest Path
+
+743.Network Delay Time
+
+??? Dijkstra's Shortest Reach II - hackerrank
+
