@@ -29,3 +29,4 @@ class Solution:
   Time Complexity: O(n log n)
 
 '''
+https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/

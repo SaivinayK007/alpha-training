@@ -10,21 +10,16 @@ ________________________
   3.leetcode 225 - Implement Stack using Queue ✅
   4.leetcode 84 - Largest Rect. in Histogram
 
-
-
-146. LRU Cache 
+146. LRU Cache
 ________________________
 .. Use Least Recently Used Cache {LRU} using Ordered Dictionary in Python
-
 .. Main operations :
   ===================
-
-    put ():- 
+    put ():-
     ..........
        1.Search for key if found in Dictionary and move to end of Dictionary
        2.Update the value of key in Dictionary
        3.Delete the first element of Dictionary
-    
     get():-
     ...........
        1.Search for key in Dictionary if not found return -1
@@ -40,7 +35,7 @@ ________________________
 >> There is only decision sequence in Greedy.
 >> Greedy is faster but can't produce accurate result.(viz . Dynamic Progrmmaing and Backtracking )
 >> It efficiently works with problems like
-     . Fractional knapsack 
+     . Fractional knapsack
      . Job sequencing with deadline
      . Djikstras Algoritm (Single Source Shortest path)
      . Prims Algorithm (Graphs) , Priority Queue (Min Max heap ), etc..

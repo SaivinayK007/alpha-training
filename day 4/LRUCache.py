@@ -20,12 +20,3 @@ class LRUCache:
 
         if len(self.arr) > self.size :
             self.arr.popitem(last = False)
-        
-
-
-    
-
-"""
-   Use Ordered Dictionary or Dictionary in Python
-
-"""
